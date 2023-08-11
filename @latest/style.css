@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+button#grow {
+  background-color: #049ef4;
+  position: absolute;
+  width: 250px;
+  height: 70px;
+  border:  none;
+  border-radius: 6px;
+  margin-top: 500px;
+  color: white;
+  font-size: 40px;
+  font-family: serif;
+}
